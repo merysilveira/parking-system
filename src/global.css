@@ -1,0 +1,41 @@
+:root {
+  --white: #fff;
+
+  --gray-100: #E4E3E3;
+  --gray-200: #DADADA;
+  --gray-300: #CCCCCC;
+  --gray-400: #9B9B9B;
+  --gray-800: #4A4A4A;
+
+  --blue-500: #4DD0E1;
+  --blue-600: #26C6DA;
+  --blue-700: #00BCD4;
+
+  --yellow-100: #FFFBE6;
+
+  --green-500: #28DD91;
+  --green-900: #0A261D;
+
+  --red-500: #FF1744;
+
+  --pink-500: #FF0068;
+
+  --purple-500: #A769B2;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--blue-500);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, textarea, button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}

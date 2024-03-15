@@ -1,5 +1,6 @@
 import * as Tabs from '@radix-ui/react-tabs';
 import styles from './Content.module.css';
+import { PaymentModal } from './PaymentModal';
 
 export function Content() {
   return (
@@ -24,9 +25,7 @@ export function Content() {
         <input className={styles.Input} id="numExit" placeholder="AAA-0000" />
       </fieldset>
 
-      <div className={styles.wrapperButton}>
-        <button className={`${styles.Button} ${styles.ButtonPayment}`}>Pagamento</button>
-      </div>
+      <PaymentModal />
 
       <div className={styles.wrapperButton}>
         <button className={`${styles.Button} ${styles.ButtonExit}`}>Saída</button>

@@ -56,7 +56,7 @@ input {
   color: var(--blue-500);
 }
 .TabsTrigger[data-state='active'] {
-  background-color: white;
+  background: white;
   color: var(--blue-500);
   border-bottom: 3px solid currentColor;
   box-shadow: none;
@@ -68,7 +68,7 @@ input {
 .TabsContent {
   flex-grow: 1;
   padding: 1.25rem;
-  background-color: white;
+  background: white;
   outline: none;
 }
 
@@ -124,17 +124,11 @@ input {
 
 .ButtonEntry,
 .ButtonPayment {
-  background-color: var(--gray-300);
+  background: var(--gray-300);
 }
 .ButtonEntry:hover,
 .ButtonEntry:focus {
-  background-color: var(--green-500);
-  color: var(--white);
-}
-
-.ButtonPayment:hover,
-.ButtonPayment:focus {
-  background-color: var(--purple-500);
+  background: var(--green-500);
   color: var(--white);
 }
 

@@ -1,5 +1,6 @@
 import * as AlertDialog from '@radix-ui/react-alert-dialog';
 import styles from './PaymentModal.module.css';
+import { Link } from 'react-router-dom';
 
 export function PaymentModal() {
   return (
@@ -21,7 +22,7 @@ export function PaymentModal() {
           </div>
           <div className={styles.wrapperButton}>
             <AlertDialog.Cancel asChild>
-              <a href="#" className={styles.Link}>Voltar</a>
+              <Link to={`/`} className={styles.Link}>Voltar</Link>
             </AlertDialog.Cancel>
           </div>
         </AlertDialog.Content>
